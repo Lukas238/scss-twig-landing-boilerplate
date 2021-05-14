@@ -1,12 +1,8 @@
-# wt--gen-landing--nexgard
+# scss-twig-landing-boilerplate
 
-This is a base page generator for Nexgard client.
+This is a base page generator for landings with [TWIG] tempalte and [Bootstrap 3 SCSS] support.
 
 Clone this repository, and copy it to a new folder to be use as a starting point for a new developing.
-
-If new components are created on your project, please upload them to this repository, to make them available for future developments.
-
-Also remember to include any variable, mixin, global, or helper.
 
 ## How to use
 
@@ -49,9 +45,6 @@ This will compile the sources in to the `./dist` folder.
 - Twig.js
 
 
-## Humans.txt
-- **Tech Referent / Tech Lead** - Lucas Dasso <lucas.dasso@wundermanthompson.com>
-
-
 [TWIG]: https://twig.symfony.com/
 [ABEM]: https://css-tricks.com/abem-useful-adaptation-bem/
+[Bootstrap 3 SCSS]: https://github.com/twbs/bootstrap-sass
