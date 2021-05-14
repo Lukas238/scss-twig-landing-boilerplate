@@ -1,0 +1,48 @@
+.btn {
+  padding: 14px 8px 12px 11px;
+  border: 2px solid $biah-color-primary-blue;
+  border-radius: 26.5px;
+  background-color: $color-text--contrast;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.54px;
+  text-align: center;
+  color: $biah-color-primary-blue;
+  margin: 15px 0;
+
+  @include breakpoint($sm) {
+    max-width: 250px;
+    &-block {
+      margin: 15px auto;
+    }
+  }
+
+  &-secondary {
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):hover {
+      color: $biah-color-primary-blue;
+      background-color: darken($color-contrast, 5%);
+      border-color: darken($biah-color-primary-blue, 5%);
+    }
+  }
+  &-primary {
+    color: $color-text--contrast;
+    background-color: $biah-color-primary-blue;
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):hover {
+      background-color: darken($biah-color-primary-blue, 5%);
+      border-color: darken($biah-color-primary-blue, 5%);
+    }
+  }
+  &-danger {
+    color: $color-text--contrast;
+    background-color: $color-orange-red;
+    border-color: $color-orange-red;
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):hover {
+      background-color: darken($color-orange-red, 15%);
+      border-color: darken($color-orange-red, 15%);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.o-footer {
+  &__legal {
+    > .container {
+      padding-top: 1px;
+      padding-bottom: $o-isi__minHeight;
+      color: $biah-color-grays-content;
+
+      p {
+        line-height: 1.71;
+        letter-spacing: 1.6px;
+        color: $biah-color-grays-content;
+      }
+    }
+    background-color: $biah-color-grays-bg !important;
+  }
+}

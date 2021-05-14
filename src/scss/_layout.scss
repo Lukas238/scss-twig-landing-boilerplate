@@ -1,0 +1,11 @@
+.page {
+  position: relative;
+}
+ main{
+   @include make-row;
+   > .wrap {
+     @include make-sm-column(8);
+     @include make-sm-column-push(2);border: 1px solid red;
+
+   }
+ }
